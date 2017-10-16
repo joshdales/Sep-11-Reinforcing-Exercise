@@ -5,6 +5,8 @@ h = Hash.new
     h[num] = (num * 2)
   elsif num % 2 == 0
     h[num] = (num + 1)
+  elsif num % 7 == 0
+    h[num] = (num - 1)
   else
     h[num] = num
   end
